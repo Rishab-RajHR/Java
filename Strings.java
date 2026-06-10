@@ -60,7 +60,7 @@ public class Strings {
           // boolean checkName = firstName.equals("Alex");
           // System.out.println(checkName);
 
-          // Equals Method
+          // EqualsIgnoreCase Method
           String firstName = "Alex";
           boolean checkName = firstName.equalsIgnoreCase("alex");
           System.out.println(checkName);
