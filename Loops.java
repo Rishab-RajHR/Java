@@ -31,17 +31,30 @@ public class Loops {
         // Practice Program
 
         // While Loop
-        int sum = 0;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Positive Integers: ");
-        int number = sc.nextInt();
-        while(number>=0)
-        {
-             sum+=number;  // sum = sum = number
+        // int sum = 0;
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter Positive Integers: ");
+        // int number = sc.nextInt();
+        // while(number>=0)
+        // {
+        //      sum+=number;  // sum = sum = number
 
-             System.out.println("Enter Positive Integers: ");
-             number = sc.nextInt();
+        //      System.out.println("Enter Positive Integers: ");
+        //      number = sc.nextInt();
+        // }
+        // System.out.println("The Sum is: "+ sum);
+
+
+        // Do While Loop
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Number");
+        int number = sc.nextInt();
+        int i = 1;
+        System.out.println("The Table of "+number+" is: ");
+        do{
+            System.out.println(number+" * "+i+" = "+(number*1));
+            i++;
         }
-        System.out.println("The Sum is: "+ sum);
+        while(i<=10);
     }
 }
