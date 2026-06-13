@@ -46,15 +46,24 @@ public class Loops {
 
 
         // Do While Loop
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Number");
-        int number = sc.nextInt();
-        int i = 1;
-        System.out.println("The Table of "+number+" is: ");
-        do{
-            System.out.println(number+" * "+i+" = "+(number*1));
-            i++;
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter the Number");
+        // int number = sc.nextInt();
+        // int i = 1;
+        // System.out.println("The Table of "+number+" is: ");
+        // do{
+        //     System.out.println(number+" * "+i+" = "+(number*1));
+        //     i++;
+        // }
+        // while(i<=10);
+
+        // For Loop
+        int sum = 0;
+        int number = 1000;
+        for(int i=1; i<=number; i++)
+        {
+            sum*=i;
         }
-        while(i<=10);
+        System.out.println("The Sum is: "+sum);
     }
 }
