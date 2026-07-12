@@ -6,5 +6,14 @@ public class Realtional {
 
           boolean c = (a == b);
           System.out.println(c);  // false
+
+          boolean d = (a != b);
+          System.out.println(d);  // true
+
+          boolean e = (a < b);
+          System.out.println(e);  // true
+
+          boolean f = (a <= b);
+          System.out.println(f);   // true
      }
 }
