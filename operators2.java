@@ -34,7 +34,26 @@ public class operators2 {
 
           int i = 6;
           i++; // i = i + 1 --> i += 1; i = 7;
+          i--; // i = i - 1  --> i -= 1; i = 6;
 
           System.out.println(i);
+
+
+          // Pre increment and Post increment/decrement
+
+          int j = 7;
+          j++;  // postfix increment
+          ++j;   // prefix increment
+
+          // j = 9
+          int k = j++;  // k = j; j = j + 1
+
+          System.out.println(j + " , " + k);    // 10, 9
+
+          int l = ++j;   // l = j + 1 
+
+          System.out.println(j + " , " + l);  // 11, 11
+
+          // Same is for decrement
      }
 }
