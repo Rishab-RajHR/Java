@@ -66,23 +66,23 @@ public class ifelse {
         
         // If-else if statement
 
-        int age = 50;
+        // int age = 50;
 
-        if(age > 80){
-            System.out.println("You are very old");
-        }
-        else if(age > 60){
-            System.out.println("You are old");
-        }
-        else if(age > 40){
-            System.out.println("You are becoming old");
-        }
-        else if(age > 20){
-            System.out.println("You are young");
-        }
-        else{
-            System.out.println("You are a child");
-        }
+        // if(age > 80){
+        //     System.out.println("You are very old");
+        // }
+        // else if(age > 60){
+        //     System.out.println("You are old");
+        // }
+        // else if(age > 40){
+        //     System.out.println("You are becoming old");
+        // }
+        // else if(age > 20){
+        //     System.out.println("You are young");
+        // }
+        // else{
+        //     System.out.println("You are a child");
+        // }
 
          
     }
