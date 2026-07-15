@@ -34,17 +34,23 @@ public class loops2 {
 
 
 
-          // DO-while loop
+          // Do-while loop
 
           // do{
           //     // do something
           // }while(expression);
 
-
+          int i = 1;
           do{
-             
-          } while();
+             System.out.println(i); 
+             i++;
+          } while(i <= 10);
 
-
+        // Menu item selection --> do-while
+        /*
+           1. Play Game
+           2. Return saved Game
+           3. Exit
+        */
       }
 }
