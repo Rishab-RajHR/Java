@@ -6,6 +6,8 @@ public class arrays3 {
 
         // string str = " ";   => This is a valid string
 
-        System.out.println(firstName + " " + lastName);
+        String fullName = firstName + " " + lastName;
+
+        System.out.println(fullName);
      }
 }
