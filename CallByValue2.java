@@ -1,9 +1,8 @@
 
-// There is no call by reference in Java
-
-public class CallByReference {
+public class CallByValue2 {
     public static void main(String[] args) {
         Random r1 = new Random(4, 5);
+        Random r2 = new Random(r1);
 
         System.out.println(r1.x + " , " + r1.y);
 
@@ -27,5 +26,10 @@ class Random {
     Random(int x, int y) {
        this.x = x;
        this.y = y;
+    }
+
+    Random(Random r) {
+      this.x = x;
+      this.y = y;
     }
 }
