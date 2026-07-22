@@ -47,4 +47,15 @@ class Student {
     public void setName(String name) {
        this.name = name;
     }
+
+    // Getters and Setters for college
+
+    public String getCollege() {
+        return college;
+    }
+
+    public void setCollege(String college) {
+        // validations --> college should be real
+        this.college = college;
+    }
 }
