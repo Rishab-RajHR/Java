@@ -18,12 +18,12 @@ class Random {
    }
 
   //  static keyword
-  class Random {
-     static final double PI;
+  // class Random {
+  //    static final double PI;
 
-     static {
-       PI = 3.14;
-     }
-  }
+  //    static {
+  //      PI = 3.14;
+  //    }
+  // }
 
 }
