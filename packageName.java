@@ -3,6 +3,8 @@
 // import college.Student;
 // import school.Student;
 
+// import college.*;
+
 public class packageName {
      public static void main(String[] args) {
         college.Student s1 = new college.Student();
