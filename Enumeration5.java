@@ -26,8 +26,8 @@ enum Direction {
    EAST,
    WEST;
 
-   @Override
-   public String toString() {
-       return this.name() + " Direction";
-   }
+  //  @Override
+  //  public String toString() {
+  //      return this.name() + " Direction";
+  //  }
 }
