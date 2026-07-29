@@ -1,0 +1,30 @@
+public class interface6 {
+     public static void main(String[] args) {
+        B d = new D();
+        d.fun();
+     }
+}
+
+interface A {
+   void fun();
+}
+
+interface B extends A {
+     default void fun() {
+        System.out.println("B");
+     }
+}
+
+interface C extends A {
+      default void fun() {
+        System.out.println("C");
+     }
+}
+
+class D implements B, C {
+   @Override
+   public void fun() {
+      B.super.fun();
+      C.super.fun();
+   }
+}
