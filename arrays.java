@@ -1,5 +1,5 @@
 public class arrays {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
           // int[] rollNums = new int[3];
 
           // int rollNums[] = new int[3];  => It is also correct approach 

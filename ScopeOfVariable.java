@@ -1,8 +1,8 @@
 public class ScopeOfVariable {
 
-    static String name = "Alex";  // global scope
+    static String1 name = "Alex";  // global scope
 
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         // Scope of a variable
 
          int x = 4;  // local scope

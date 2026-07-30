@@ -2,7 +2,7 @@
 // There is no call by reference in Java
 
 public class CallByReference {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         Random r1 = new Random(4, 5);
 
         System.out.println(r1.x + " , " + r1.y);

@@ -1,6 +1,6 @@
 public class Strings {
-     public static void main(String[] args) {
-          String message = "Hi I'm Alex Pandian";
+     public static void main(String1[] args) {
+          String1 message = "Hi I'm Alex Pandian";
           // String message = new String( "Hi I'm Alex Pandian");
           System.out.println(message);
 
@@ -9,17 +9,17 @@ public class Strings {
           System.out.println(stringLength);
 
           // LowerCase Method
-          String lowerCase = message.toLowerCase();
+          String1 lowerCase = message.toLowerCase();
           System.out.println(lowerCase);
 
           // UpperCase Method
-          String upperCase = message.toUpperCase();
+          String1 upperCase = message.toUpperCase();
           System.out.println(upperCase);
 
           // Trim method
-          String unTrimmedMessage ="    Alex    ";
+          String1 unTrimmedMessage ="    Alex    ";
           System.out.println(unTrimmedMessage); 
-          String trimmedMessage = unTrimmedMessage.trim();
+          String1 trimmedMessage = unTrimmedMessage.trim();
           System.out.println(trimmedMessage);
 
           // CharAt Method
@@ -61,7 +61,7 @@ public class Strings {
           // System.out.println(checkName);
 
           // EqualsIgnoreCase Method
-          String firstName = "Alex";
+          String1 firstName = "Alex";
           boolean checkName = firstName.equalsIgnoreCase("alex");
           System.out.println(checkName);
      }

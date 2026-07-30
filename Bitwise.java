@@ -1,5 +1,5 @@
 public class Bitwise {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
          // Bitwise operations
          int a = 2; // 10  => 00000000 00000000 00000000 00000010
          int b = 3; // 11  => 00000000 00000000 00000000 00000011

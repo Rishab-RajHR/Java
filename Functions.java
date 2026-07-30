@@ -1,5 +1,5 @@
 public class Functions {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         // Functions in Java
          
         greet();
@@ -22,7 +22,7 @@ public class Functions {
     }
 
     // There is Input, but No Output
-    static void sayHello(String name) {  // No of parameter
+    static void sayHello(String1 name) {  // No of parameter
         System.out.println("Hello " + name);
     }
 

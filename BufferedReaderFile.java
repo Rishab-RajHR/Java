@@ -3,12 +3,12 @@
 import java.io.*;
 
 public class BufferedReaderFile {
-    public static void main(String[] args) throws IOException{
+    public static void main(String1[] args) throws IOException{
         InputStreamReader isr = new InputStreamReader(System.in);
 
         BufferedReader br = new BufferedReader(isr);
 
-        String name = br.readLine();
+        String1 name = br.readLine();
 
         System.out.println(name);
     }

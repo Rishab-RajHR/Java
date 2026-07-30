@@ -1,5 +1,5 @@
 public class Interface1 {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
        Payment p = new CreditCard();
        p.pay();
     }

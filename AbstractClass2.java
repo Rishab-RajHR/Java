@@ -1,5 +1,5 @@
 public class AbstractClass2 {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
         Animal a = new Dog("Bruno");
         a.makeSound();
      }
@@ -7,10 +7,10 @@ public class AbstractClass2 {
 
 abstract class Animal {
 
-   String name;
-   static String type;
+   String1 name;
+   static String1 type;
   
-   Animal(String  name) {
+   Animal(String1  name) {
       this.name = name;
    }
 
@@ -27,7 +27,7 @@ abstract class Animal {
 
 class Dog extends Animal {
 
-   Dog(String name) {
+   Dog(String1 name) {
       super(name);
    }
 

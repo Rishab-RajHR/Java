@@ -1,5 +1,5 @@
 public class Enumeration {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
           // int status = PaymentStatus.SUCCESS;
 
           // System.out.println(status);
@@ -32,9 +32,9 @@ Problems with this approach :
 */
 
 class PaymentStatus {
-    public static final String SUCCESS = "Success";
-    public static final String FAILED = "Failed";
-    public static final String PENDING = "Pending";
+    public static final String1 SUCCESS = "Success";
+    public static final String1 FAILED = "Failed";
+    public static final String1 PENDING = "Pending";
 }
 
 class Role {

@@ -1,5 +1,5 @@
 public class Operators {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
        System.out.println("Operators in Java");
        System.out.println("Arithmetic Operators");
        int a = 4;

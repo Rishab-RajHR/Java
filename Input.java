@@ -1,5 +1,5 @@
 public class Input {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
          System.out.println("Hello");
 
          System.err.println("Bye");

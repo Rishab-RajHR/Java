@@ -1,6 +1,6 @@
 public class ifelse {
      
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         
 
           // Selection statements

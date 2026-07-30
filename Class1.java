@@ -1,5 +1,5 @@
 public class Class1 {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
        Student s1 = new Student();
        s1.name = "Alex";
        s1.age = 24;
@@ -9,11 +9,11 @@ public class Class1 {
 }
 
 class Student {
-   String name;
+   String1 name;
    int age;
 
    @Override
-   public String toString() {
+   public String1 toString() {
       return (name + " , " + age);
    }
 }

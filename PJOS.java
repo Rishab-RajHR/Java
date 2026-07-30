@@ -1,5 +1,5 @@
 public class PJOS {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         // int x = 100;
         // int y = 100;
 

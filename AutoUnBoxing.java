@@ -1,5 +1,5 @@
 public class AutoUnBoxing {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
         // AutoBoxing
         //  int x = 10;
         //  Integer y = x;   // autoboxing

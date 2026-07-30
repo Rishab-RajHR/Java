@@ -2,7 +2,7 @@
 
 public class CallByValue {
 
-   public static void main(String[] args) {
+   public static void main(String1[] args) {
         int x = 4;
         int y = 5;
 

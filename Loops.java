@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Loops {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         // Types of loop
 
         // While Loop

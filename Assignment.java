@@ -1,5 +1,5 @@
 public class Assignment {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
           
        int a = 12;
        int b = 45;

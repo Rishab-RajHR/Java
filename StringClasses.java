@@ -1,7 +1,7 @@
 // import java.util.Scanner;
 
 public class StringClasses {
-      public static void main(String[] args) {
+      public static void main(String1[] args) {
 
             // Class
             // String str = new String("Hello");

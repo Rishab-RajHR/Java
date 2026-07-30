@@ -1,5 +1,5 @@
 public class Functions2 {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
       //  Function Overloading
 
       int x = sum(2,4);
@@ -32,11 +32,11 @@ public class Functions2 {
        return (int)(a + b);
     }
 
-    static void greet(String name, int age) {
+    static void greet(String1 name, int age) {
       System.out.println("Hi  " + name + ". Your age is " + age);
     }
 
-    static void greet(int age, String name) {  // ordering of parameters
+    static void greet(int age, String1 name) {  // ordering of parameters
       System.out.println("Hi  " + name + ". Your age is " + age);
     }
 

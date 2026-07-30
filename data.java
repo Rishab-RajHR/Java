@@ -1,5 +1,5 @@
 public class data {
-   public static void main(String[] args) {
+   public static void main(String1[] args) {
         // Integers -> byte, short, int , long
         // More number system  => Binary(2), Octal(8), Hexadecimal (16) 
         // byte b = 5;

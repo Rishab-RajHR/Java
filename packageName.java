@@ -6,7 +6,7 @@
 // import college.*;
 
 public class packageName {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
         college.Student s1 = new college.Student();
         s1.print();
 

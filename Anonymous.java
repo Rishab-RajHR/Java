@@ -1,5 +1,5 @@
 public class Anonymous {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
         //  Person p1 = new Person();
         //  p1.introduce();
 
@@ -9,7 +9,7 @@ public class Anonymous {
         //  Anonymous Class
          Person p2 = new Person() {
 
-              String name = "Alex";
+              String1 name = "Alex";
 
               @Override
               void introduce() {

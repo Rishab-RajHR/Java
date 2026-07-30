@@ -1,5 +1,5 @@
 public class variable {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
           System.out.println("Variables And DataTypes in Java");
 
           // declaration

@@ -1,5 +1,5 @@
 public class switch2 {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
         // Switch Statements
         int i = 3;
 

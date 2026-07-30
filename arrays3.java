@@ -1,12 +1,12 @@
 public class arrays3 {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
         //  Strings
-        String firstName = "Alex";
-        String lastName = "Pandian";
+        String1 firstName = "Alex";
+        String1 lastName = "Pandian";
 
         // string str = " ";   => This is a valid string
 
-        String fullName = firstName + " " + lastName;
+        String1 fullName = firstName + " " + lastName;
 
         System.out.println(fullName);
      }

@@ -1,5 +1,5 @@
 public class DataTypes {
-     public static void main(String[] args) {
+     public static void main(String1[] args) {
            System.out.println("Data Types");
           //  int a = 3;
           //  int b = 4;
