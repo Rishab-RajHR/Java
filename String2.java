@@ -5,9 +5,9 @@ public class String2 {
 
         System.out.println(s1 == s2);  // true
 
-        String s3 = new String("Alex");
+        String s3 = new String("Alex");  // Using new Operator
         String s4 = new String("Alex");
 
-        System.out.println(s3 == s4);
+        System.out.println(s3 == s4);  // false
      }
 }
