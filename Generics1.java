@@ -18,6 +18,6 @@ public class Generics1 {
         Object obj3 = 10;
         String s3 = (String) obj3;
 
-        System.out.println(s3);   // Class Exception
+        System.out.println(s3);   // Class CastException
     }
 }
