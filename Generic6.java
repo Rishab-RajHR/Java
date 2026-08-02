@@ -1,7 +1,11 @@
 public class Generic6 {
     public static void main(String[] args) {
-    
+       Box<Fish> b1 = new Box<>();
     }
+}
+
+class Box<T extends Animal & Swimmable> {
+    T value;
 }
 
 class Animal {
@@ -24,3 +28,5 @@ class Fish extends Animal implements Swimmable{
       System.out.println("Swimming ");
    }
 }
+
+// <T extends Class & Interface1 , Interface2>
