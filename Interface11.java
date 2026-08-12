@@ -10,23 +10,34 @@ public class Interface11 {
 
         Collections.sort(list);   // ascending
 
-        List<Integer> list2 = new ArrayList<>();
-        list2.add(10);
-        list2.add(5);
-        list2.add(45);
+        // System.out.println(list);
 
-        Collections.sort(list2);
+        for(Student s : list){
+             System.out.println(s.name + " , " + s.marks);
+        }
 
-        System.out.println(list2);
+        // List<Integer> list2 = new ArrayList<>();
+        // list2.add(10);
+        // list2.add(5);
+        // list2.add(45);
+
+        // Collections.sort(list2);
+
+        // System.out.println(list2);
      }
 }
 
-class Student {
+class Student implements Comparable<Student>{
     String name;
     int marks;
 
     public Student(String name, int marks) {
         this.name = name;
         this.marks = marks;
+    }
+
+    @Override
+    public int compareTo(Student other){
+        return other.marks -  this.marks;
     }
 }
