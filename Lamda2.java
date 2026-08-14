@@ -6,5 +6,7 @@ public class Lamda2 {
         Function<Integer, Integer> square = x -> x * x;
 
         System.out.println(square.apply(5));
+
+        Consumer<Integer> print = x ->  System.out.println(x);
     }
 }
