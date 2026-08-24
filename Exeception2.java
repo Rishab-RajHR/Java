@@ -10,3 +10,6 @@ public class Exeception2 {
          System.out.println("Step 2");
      }
 }
+
+
+// Why Exception Handling
