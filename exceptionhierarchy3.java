@@ -4,12 +4,17 @@ public class exceptionhierarchy3 {
             System.out.println(5 / 0);  // new Arithmetic Exception ("/ by zero");
             // String s = null;
             // s.length();
+            Object obj = "Hello";
+            Integer i = (Integer) obj; // new ClassCastException()
          } 
-         catch(ArithmeticException e) {
-             System.out.println("Generic Exception Occured");
+         catch(ArithmeticException | NullPointerException e) {
+             System.out.println(e.getMessage());
          }
-        catch(NullPointerException e) {
+        catch(RuntimeException e) {
              System.out.println("Nulls are not allowed");
          }
+        //  catch(Exception e){
+        //     System.out.println("Some Generics Exception");
+        //  }
     }
 }

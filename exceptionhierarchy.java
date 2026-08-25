@@ -10,7 +10,7 @@ public class exceptionhierarchy {
               System.out.println("Inner try ends");
               
             } catch (NullPointerException e) {
-                System.out.println("Divide by zero is not allowed : Inner");
+                System.out.println("Nulls are not allowed");
             }
             System.out.println("Outer try ends");
         } catch (ArithmeticException e) {
