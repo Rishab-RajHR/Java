@@ -9,7 +9,13 @@ public class Thread4 {
               System.out.println("Id of my thread is " + Thread.currentThread().getId());
           });
 
+          Thread t2 = new Thread(() -> {
+              System.out.println("Name of my 2nd thread is " + Thread.currentThread().getName());
+              System.out.println("Id pf my 2nd thread is " + Thread.currentThread().getId());
+          });
+
           t1.start();
+          t2.start();
       }
 }
 
