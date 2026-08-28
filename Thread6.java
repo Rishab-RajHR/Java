@@ -5,7 +5,7 @@ public class Thread6 {
       Thread t1 = new Thread(() -> {
           for(int i=1; i<=100; i++) {
               if(i % 2 == 0) {
-                  System.out.println("T1" + i);
+                  System.out.println("T1 :" + i);
               }
           }
       });
@@ -14,7 +14,7 @@ public class Thread6 {
       Thread t2 = new Thread(() -> {
           for(int i=1; i<=100; i++) {
               if(i % 2 != 0) {
-                  System.out.println("T2" + i);
+                  System.out.println("T2 :" + i);
               }
           }
       });
@@ -25,3 +25,4 @@ public class Thread6 {
 }
 
 // Execution order --> Non Determines
+// Order is not there unorderded 
