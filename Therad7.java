@@ -1,0 +1,15 @@
+public class Therad7 {
+     public static void main(String[] args) {
+         Thread t1 = new Thread(() -> {
+            System.out.println(Thread.currentThread().getName());
+         });
+
+         t1.setName("Worker-1");
+
+         t1.start();
+     }
+}
+
+/*
+    currentThread()  --> reference of current running thread
+*/
